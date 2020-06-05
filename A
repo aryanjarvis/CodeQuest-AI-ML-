@@ -1,0 +1,38 @@
+
+#name-ARYAN KUMAR
+population={"Shanghai":17.8,"Istanbul":13.3,"Karachi":13.0,"Mumbai":12.5}
+print(population)
+{'Shanghai': 17.8, 'Istanbul': 13.3, 'Karachi': 13.0, 'Mumbai': 12.5}
+*********************************************************
+animals={'dogs':[20,10,15,8,32,15],'cats':[3,4,2,8,2,4],'rabbits':[2,3,3],'fish':[0.3,0.5,0.8,0.3,1]}
+print(animals['dogs'])
+print(animals['dogs'][3])
+print(animals[3])#eroor will come
+print(animals['fish'])
+[20, 10, 15, 8, 32, 15]
+8
+---------------------------------------------------------------------------
+KeyError                                  Traceback (most recent call last)
+<ipython-input-3-bf946b47c9da> in <module>
+      2 print(animals['dogs'])
+      3 print(animals['dogs'][3])
+----> 4 print(animals[3])#eroor will come
+      5 print(animals['fish'])
+
+KeyError: 3
+****************************************************
+a=[1,2,2,3,3,3,4,4,4,4]
+b=set(a)
+print(len(a)-len(b))
+6
+************************************************
+tuple_a=3,4
+tuple_b=(3,4)
+print(tuple_a==tuple_b)
+print(tuple_a[1])
+True
+4
+*****************************************
+names=["Carol","Albert","Ben","Donna"]
+print("&".join(sorted(names)))#alpabetical wise sorting
+Albert&Ben&Carol&Donna
